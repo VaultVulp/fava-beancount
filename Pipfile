@@ -12,5 +12,5 @@ fava = "*"
 python_version = "3.6"
 
 [scripts]
-app = "fava -H 0.0.0.0 main.bean"
+app = "fava -H 0.0.0.0 ./data/main.bean"
 help = "fava --help"
