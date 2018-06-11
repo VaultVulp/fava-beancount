@@ -9,7 +9,7 @@ COPY ./Pipfile.lock ./Pipfile.lock
 
 RUN pipenv install --deploy
 
-COPY ./main.bean ./main.bean
+COPY ./main.bean ./data/main.bean
 
 ENTRYPOINT ["pipenv"]
 CMD ["run", "app"]
